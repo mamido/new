@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+		<meta charset="UTF-8" />
+		<title>Drawing with the grid</title>
+	<style>
+      #map-canvas {
+        width: 500px;
+        height: 400px;
+      }
+	 
+    </style>
+	
+	
+	 
+	
+	
+	
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(53.350140,-6.266155),
+          zoom: 5,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+
+      }
+	  
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+	<link href="style.css" type="text/css" rel="stylesheet">
+	
+			
+			
+</head>
+
+
+<body>
+	
+	<div id="wrapper">
+	    <style>
+		 background-image:url("me2.gif");
+		</style>
+	<header>
+	   
+		<div id="header">
+		
+				<div class="container">
+					<p>
+						<a href="classes.html"><img src="contact04.jpg" width="300" height="110" alt="this background is for testing document layout" title="this image links to my classes page" /></a>
+					 <h1> Drawing with the grid</h1>
+					</p>
+				
+				</div>
+		
+		</div>
+	</header>
+
+
+	<nav>
+		<div id="nav">
+				<div class="container">
+					<ul>
+				
+						 <a href="index.html"><li><button id="home"><b>HOME</b></button></li></a>
+						<a href="classes.html"><li><button id="classes"><b>CLASSES</b></button></li></a>
+						<li><button id="about"><a href="about.html"><b>ABOUT</b></a></button></li>
+						<li><button id="contact"><a href="contact.html"><b>CONTACT</b></a></button></li>
+						
+					</ul>
+				</div>
+			</div>
+	</nav>		
+			
+			
+			
+	<section>
+
+			
+		<div id="main_content">
+					<div id="mam4">
+<b> <h4>Your Suggestions Important for us</h4><b>
+</div>
+
+<div id="container">
+<div id="mam5">
+
+
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	
+		<label for="name"><b>Your name</b></label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	
+	<div class="row">
+		<label for="email"><b>Your email</b></label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email"><b>Your phone number</b></label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message"><b>Comment</b></label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="65"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>		
+	
+</div>
+
+<div id="mam6">	
+
+<div id="map-canvas"></div>
+
+</div>
+</div>
+			
+			
+			
+	</section>			
+			
+			
+			
+		
+		
+	<footer>
+		
+		<div class="footer-social" id="footer">
+			
+			<ul>
+			
+				<li><a href="http://www.facebook.com"><img src="facebook.jpg" width="49" height="49" alt="this background is for testing document layout" /></a></li>
+				<li><a href="http://www.twitter.com"><img src="twitter.jpg" width="49" height="49" alt="this background is for testing document layout" /></a></li>
+				<li><a href="http://www.youtube.com"><img src="youtobe.jpg" width="49" height="49" alt="this background is for testing document layout" /></a></li>
+				<li><a href="https://www.linkedin.com"><img src="linkedin.png" width="49" height="49" alt="this background is for testing document layout" /></a></li>
+				<li><a href="https://plus.google.com/"><img src="google.jpg" width="49" height="49" alt="this background is for testing document layout" /></a></li>
+			</ul>
+			<div id="copyright">
+				<h3>All rights reserved © New Website 2014</h3>
+			</div>
+		
+		</div>
+		
+	</footer>	
+	
+	</div>
+	
+	
+
+
+</body>
+
+
+</html>
